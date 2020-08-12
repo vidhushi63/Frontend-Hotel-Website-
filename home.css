@@ -71,6 +71,7 @@ section .first {
 
 .second {
     display: flex;
+    width:100vw;
 }
 
 .second h2 {
@@ -80,7 +81,7 @@ section .first {
 }
 
 .sec_part {
-    width: 40%;
+    width: 35%;
     margin-top: 4rem;
 
 
@@ -98,7 +99,7 @@ section .first {
 }
 
 .sec_img img {
-    width: 35rem;
+    width: 30rem;
 }
 
 .third h2 {
