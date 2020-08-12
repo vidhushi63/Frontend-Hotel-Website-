@@ -30,7 +30,7 @@ nav h1 {
     background-color: rgb(241, 235, 241);
     padding: 1rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 52rem;
+    height: 54rem;
     text-align: center;
 }
 .first h1{
@@ -58,7 +58,7 @@ nav h1 {
     display: flex;
     flex-direction: column;
     width: 25rem;
-    height: 10rem;
+    height: 12rem;
     padding: 3rem;
     border: 2px solid black;
     border-radius: 8px;
