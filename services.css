@@ -1,0 +1,130 @@
+*{
+    margin: 0em;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(rgb(65, 63, 63), rgb(2, 2, 2));
+    color: blanchedalmond;
+    width: 100vw;
+    padding: 1.5rem;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav .contact {
+    margin-left: 55%;
+    padding: 1rem;
+    margin-top: 0rem;
+    
+}
+nav h2{
+    font-family: cursive;
+}
+
+nav h1 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: fantasy;
+}
+.first{
+    background-color: rgb(241, 235, 241);
+    padding: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 52rem;
+    text-align: center;
+}
+.first h1{
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.services{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.fpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pool{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    height: 10rem;
+    padding: 3rem;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: -5px -5px 3px rgb(248, 245, 248);
+    margin: .5rem;
+    font-family: monospace;
+}
+.second::before {
+    background: url('bg15.jpg');
+    width: 100vw;
+    height: 35rem;
+    position: absolute;
+    content: "";
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+section .second {
+
+
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 1, 1);
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(6, 8, 0);
+}
+
+.first h1 {
+    font-family: fantasy;
+    text-shadow: -4px -4px 2px rgb(228, 230, 224);
+    font-size: 2em;
+    padding: 1rem;
+}
+.second h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+ .btn{
+    width: 10rem;
+    margin: 1rem;
+    padding: .4rem;
+    border-radius: 4px;
+    background-color: ivory;
+}
+.btn:hover{
+    background-color: rgb(233, 226, 166);
+    font-weight: bold;
+}
+#footer {
+    background-color: black;
+    opacity: 0.9;
+    height: 4rem;
+    text-align: center;
+    margin-top: 6rem;
+}
+#footer span {
+    text-align: center;
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(204, 201, 201);
+}
