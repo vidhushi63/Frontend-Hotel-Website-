@@ -1,0 +1,83 @@
+*{
+    margin: 0em;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(rgb(65, 63, 63), rgb(2, 2, 2));
+    color: blanchedalmond;
+    width: 100vw;
+    padding: 1.5rem;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav .contact {
+    margin-left: 40%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: burlywood;
+
+}
+
+nav h1 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: fantasy;
+}
+#details {
+    margin-top: 2.5rem;
+   text-align: center;
+   font-family: cursive;
+}
+form{
+    margin-left: 0px;
+    width: 100vw;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+   
+}
+
+input{
+    width: 24rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin: 0.5rem;
+    text-align: center;
+    background-color: rgb(253, 251, 255);
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+#sub input{
+    color: white;
+    background-color: rgb(44, 43, 44);
+}
+#sub:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+#footer {
+    background-color: black;
+    opacity: 0.9;
+    height: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#footer span {
+    text-align: center;
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(204, 201, 201);
+}

@@ -1,0 +1,206 @@
+* {
+    margin: 0em;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(rgb(65, 63, 63), rgb(2, 2, 2));
+    color: blanchedalmond;
+    width: 100vw;
+    padding: 1.5rem;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav .contact {
+    margin-left: 40%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: burlywood;
+
+}
+
+nav h1 {
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: fantasy;
+}
+
+.first::before {
+    background: url('bg11.jpg');
+    width: 100vw;
+    height: 30rem;
+    position: absolute;
+    content: "";
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+section .first {
+
+
+    width: 100vw;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 1, 1);
+    font-weight: 500;
+
+}
+
+.first h1 {
+    font-family: fantasy;
+    text-shadow: -4px -4px 2px rgb(228, 230, 224);
+    font-size: 2em;
+    padding: 1rem;
+}
+
+.first h2 {
+    font-family: monospace;
+    font-size: 2.5rem;
+    text-shadow: -3px -3px 2px rgb(228, 230, 224);
+}
+
+.second {
+    display: flex;
+}
+
+.second h2 {
+    font-family: cursive;
+    padding: 1em;
+
+}
+
+.sec_part {
+    width: 40%;
+    margin-top: 4rem;
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.sec_img {
+    display: block;
+    width: 35%;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.sec_img img {
+    width: 35rem;
+}
+
+.third h2 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.third {
+    background-color: linen;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    font-family: monospace;
+
+    font-size: 1.5rem;
+
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    width: 35rem;
+    height: 20rem;
+    padding: 1rem;
+
+}
+
+section .four {
+    background-color: black;
+    color: rgb(179, 177, 177);
+    padding: 2rem;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#footer {
+    background-color: black;
+    opacity: 0.9;
+    height: 4rem;
+    text-align: center;
+}
+
+#footer span {
+    text-align: center;
+    font-family: monospace;
+    font-size: 1em;
+    color: rgb(204, 201, 201);
+}
+@media (max-width: 700px )and (min-width:620px){
+    .second{
+        display: flex;
+        flex-direction: column;
+       
+        height:45rem;
+    }
+    .sec_part{
+        width:80%
+    }
+    .sec_img img{
+        width:24rem;
+        height: 16rem;
+    }
+    .gallery{
+        display: flex;
+        
+    }
+    .gallery img {
+        width: 15rem;
+        height: 10rem;
+        padding: 1rem;
+    
+    }
+}
+@media(max-width: 620px){
+   .second{
+       display: flex;
+       flex-direction: column;
+       
+       height:45rem;
+   }
+   .sec_part{
+       width:80%
+   }
+   .sec_img img{
+       width:24rem;
+       height: 16rem;
+   }
+    .gallery{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .gallery img {
+        width: 25rem;
+        height: 17rem;
+        padding: 1rem;
+    
+    }
+}
